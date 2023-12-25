@@ -97,6 +97,11 @@ header {
     transition: 0.3s;
 }
 
+header .nav a:hover {
+    color: #3f8e00 ;
+    transition: 0.3s;
+}
+
 .hero-profile-picture {
     display: flex;
     width: 350px;
@@ -156,5 +161,12 @@ header {
         .worked-with-item-area {   
             flex-direction: column;
             align-items: center;
+                }
+            }
+
+@media (max-width: 600px) {
+        .worked-with-title {   
+            display: flex;
+            justify-content: center;
                 }
             }
